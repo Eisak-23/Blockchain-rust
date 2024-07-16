@@ -1,10 +1,8 @@
-## Test How to create a  Blockchain
+##Test How to create a  Blockchain
 
+<br>
 
-
-.<br>
-
-###Resumen del Proyecto
+#Resumen del Proyecto
 
 - Estructura del Código
 
@@ -27,7 +25,7 @@
 - **prepare\_hash():** Prepara los datos del bloque para ser hasheados.
 
 **Blockchain:**
-.<br>
+<br>
 
 - **struct Blockchain: **Representa la cadena de bloques. Utiliza la base de datos sled para almacenar los bloques.
 
@@ -48,8 +46,8 @@
 	**Pruebas Unitarias:**
 
 	- Se incluyen pruebas básicas (test\_blockchain()) que verifican la creación y la iteración correcta de la cadena de bloques, así como la impresión de los datos de cada bloque.
-	.<br>
-	.<br>
+	<br>
+	<br>
 
 **Funcionamiento**
 
@@ -60,9 +58,11 @@
 - **Iteración: **El iterador BlockchainIter permite recorrer todos los bloques de la cadena, comenzando desde el último bloque (current\_hash) y retrocediendo hacia el génesis.
 
 **Conclusiones**
-.<br>
+<br>
 
-	Este proyecto proporciona una base sólida para entender cómo implementar una blockchain simple en Rust, utilizando conceptos como la estructura de datos de bloques, el algoritmo de Prueba de Trabajo para asegurar la cadena, y una base de datos para almacenarla de manera persistente. Se pueden agregar más características y mejoras según sea necesario para aplicaciones específicas de blockchain.
+	Este proyecto proporciona una base sólida para entender cómo implementar 
+ 	una blockchain simple en Rust, utilizando conceptos como la estructura de datos de bloques, el algoritmo de Prueba de Trabajo para asegurar la cadena,
+  	y una base de datos para almacenarla de manera persistente. Se pueden agregar más características y mejoras según sea necesario para aplicaciones específicas de blockchain.
 
 
-.<br>
+<br>
